@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Website Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+  <div class="container">
+    <nav>
+      <div class="logo">
+       <a href="#">Ministry of <span>Environment</span></a>
+      </div>
+      
+      <ul>
+        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="register.html">Regsiter/Login</a></li>
+        <li><a href="submission.html">Submit E-Waste</a></li>
+        <li><a href="map.html">Facility Near You!</a></li>
+        <li><a href="#">Learn & Earn</a></li>
+        <li><a href="#">Certificates</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+     
+    </nav>
+
+    <br>
+    <h1 class="submit">Submit Your E-Waste</h1> <br><br>
+
+    <form id="submission-form" action="process_form.php" method="post">
+        <label for="category">E-Waste Category:</label>
+        <input class="input" type="text" id="category" name="name" required><br><br>
+    
+        <label for="status">E-waste-status:</label>
+        <input class="input" type="text" id="status" name="status"  required><br><br>
+        
+        <label for="facility-name">Facility Name:</label>
+        <input class="input" type="text" id="facility" name="facility" required><br><br>
+        
+        
+    <button type="submit" name="submit" class="button">Submit</button>
+    <a href="dashboard.html" class="button">Visit Dashboard</a>
+
+      </form>
+
+      <!-- Footer -->
+  
+    <br />
+    <hr />
+    <br />
+<div class="navlink"> Headon to the
+  <a style="text-decoration: none; color: green" href="#navbar">
+    Navigation Menu</a
+  >
+  for more!</div>
+
+  <br />
+  <div class="clk">
+    <a style="text-decoration: none; color: green" href="index.html"
+      >Click here</a
+    >
+    to land at Home Page
+  </div>
+  <br />
+  <div class="footer">&#169; Copyright 2023 Ministry of <span style="color: green;">Environment</span>. All Rights Reserved.</div>
+  <br />
+
+</body>
+</html>
