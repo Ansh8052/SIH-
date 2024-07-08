@@ -1,2 +1,3 @@
-# This is the work done by our team Code commanders during our SIH 
-## We have worked upon two problem statements of SIH.
+# E Waste Management 
+### A prototype in react.js  
+### Work Carried during SIH
